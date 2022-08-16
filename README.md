@@ -5,7 +5,7 @@ This project aims at adressing a quick review on the principles of the generativ
 
 ## Table of contents
 * [Getting started](#getting-started)
-    * [Generative adversarial network(#generative adversarial network)
-    * [Deep Convolutional GAN](#Deep Convolutional GAN)
+    * [GAN](#generative adversarial network)
+    * [DCGAN](#Deep Convolutional GAN)
 * [Prerequisities](#Prerequisities)
 * [Usage](#usage)
