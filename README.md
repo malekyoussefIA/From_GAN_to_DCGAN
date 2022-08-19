@@ -14,6 +14,8 @@ This project aims at adressing a quick review on the principles of the generativ
 ## Getting started
 First of all, we will briefly return to the concept of the generative adversarial network, its architecture and its applications.
 
+(Still in progress, the code is coming soon!!!)
+
 ### GAN 
 
 
