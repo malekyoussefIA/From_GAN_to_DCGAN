@@ -1,0 +1,15 @@
+train:
+  epochs:  300
+  img_shape : 64            # Network output shape   (the one used in the paper was 64*64)
+  batch : 128              # value taken from the paper
+  noise_dim : 100           # value taken from the paper
+
+optimizer : 
+  lrG : 0.00009
+  lrD : 0.0002
+
+data:
+  img_path: 'images/'   # path to dataset  (".jpg") 
+  checkpoint_path: 'checkpoints/'
+  output_path: 'data/image_gen'
+

@@ -1,0 +1,16 @@
+numpy
+scikit-image
+scikit-learn
+opencv-python
+
+torch
+torchvision
+torchmetrics
+efficientnet_pytorch
+albumentations
+
+matplotlib
+pandas
+tqdm
+wandb
+omegaconf 
