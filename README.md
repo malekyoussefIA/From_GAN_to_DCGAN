@@ -16,7 +16,7 @@ This project aims at adressing a quick review on the principles of the generativ
 First of all, we will briefly return to the concept of the generative adversarial network, its architecture and its applications.
 
 
-### GAN 
+## GAN 
 The objective of the GAN is to generate realistic data, which means plausible according to a probability
 distribution of a real data. 
 Technically, GANs are composed of two neural networks. The generator and the discriminator. The purpose of the generator, as the name suggests, is to generate the new object. The discriminator must determine whether the generated object is real or not. This is where the great efficiency of GANs comes from figure below).
@@ -25,7 +25,7 @@ Technically, GANs are composed of two neural networks. The generator and the dis
 
 It is in competition that we improve, and this is also valid for AI. What we observe during the training of the generator and the discriminator, is that the two models improve simultaneously, each in the task assigned to it.
 
-### DCGAN
+## DCGAN
 DCGAN uses convolutional and convolutional-transpose layers in the generator and discriminator, respectively. It was proposed by Radford et. al. in the paper [Unsupervised Representation Learning With Deep Convolutional Generative Adversarial Networks](https://arxiv.org/pdf/1511.06434.pdf).  Here the discriminator consists of strided convolution layers, batch normalization layers, and LeakyRelu as activation function. It takes a 3x64x64 input image. The generator consists of convolutional-transpose layers, batch normalization layers, and ReLU activations. The output will be a 3x64x64 RGB image(figure below).
 
 
@@ -40,7 +40,6 @@ The whole code is build opon the PyTorch deep learning framework, and has only f
 ​
 ## Installation
 
-##Installation
 Clone the repo first : 
 ```
 git clone https://github.com/malekyoussefIA/From_GAN_to_DCGAN
@@ -62,7 +61,9 @@ pip install -r requirements.txt
 
 Make sure to update the "configs/config.yaml" file with the right paths to your data and the right parameters.
 Training can be launch (either on GPU or CPU) with : 
-```bash python -m train.dcgan```
+
+```bash python -m train.dcgan
+```
 
 
 ## Results
@@ -70,7 +71,7 @@ Below we can visualise the evolution of the generator ouptputs through the epoch
 
 For food :
 
-![My Image](images/food.gif)
+                                          ![My Image](images/food.gif)
 
 
 
