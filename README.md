@@ -62,7 +62,9 @@ pip install -r requirements.txt
 Make sure to update the "configs/config.yaml" file with the right paths to your data and the right parameters.
 Training can be launch (either on GPU or CPU) with : 
 
-```bash python -m train.dcgan
+```
+bash python -m train.dcgan
+
 ```
 
 
@@ -71,7 +73,7 @@ Below we can visualise the evolution of the generator ouptputs through the epoch
 
 For food :
 
-                                          ![My Image](images/food.gif)
+![My Image](images/food.gif)
 
 
 
